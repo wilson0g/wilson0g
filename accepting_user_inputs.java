@@ -5,8 +5,8 @@ public class accepting_user_inputs{
         
         Scanner sk= new Scanner(System.in);
         System.out.println("Hello, Please enter your name:");
-        String name = sk.nextLine();
-        System.out.println("Hello " + name);
+        int age = sk.nextInt();
+        System.out.println("Hello " + age);
 
         sk.close(); 
     }
